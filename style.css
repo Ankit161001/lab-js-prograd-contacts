@@ -52,3 +52,8 @@ h2{
     background-color: rgb(241, 123, 12);
 
 }
+
+.newbox {
+    width: 200px;
+    height: 300px;
+}

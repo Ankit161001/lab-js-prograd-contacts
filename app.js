@@ -30,7 +30,8 @@ async function contacts() {
         document.getElementById('message').innerHTML = player
         
     } catch (error) {
-        
+        console.log('Promise rejected.');
+        console.log(error.message);
     }
 }
 // contacts()
